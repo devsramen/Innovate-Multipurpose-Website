@@ -1,0 +1,102 @@
+:root{
+    /* color */
+    --color_1: rgba(132, 84, 245, 1);
+    --color_2: rgb(255, 255, 255);
+    --color_3: rgba(41, 49, 61, 1);
+    --color_4: rgba(132, 84, 245, 0.1);
+    --color_5: rgba(255, 197, 86, 1);
+    --color_6: rgba(132, 84, 245, 0.05);
+    --color_7: rgba(132, 84, 245, 0.4);
+    --color_8: rgba(252, 252, 254, 1);
+    --color_9: rgba(132, 84, 245, .70);
+    --color_10: rgba(98, 62, 185, 0.05);
+    --color_11: rgba(219, 204, 252, 0.2);
+    --color_12: rgba(84, 90, 100, 1);
+    --color_13: rgba(24, 16, 89, 1);
+    --color_14: rgba(0,0,0,0.1);
+    --color_15: rgba(243, 238, 254, 1);
+    
+    
+
+
+    /* Font Size */
+    --fontSize_1: 18px;
+    --fontSize_2: 64px;
+    --fontSize_3: 56px;
+    --fontSize_4: 28px;
+    --fontSize_5: 20px;
+    --fontSize_6: 13px;
+    --fontSize_7: 36px;
+    --fontSize_8: 24px;
+    --fontSize_9: ;
+
+
+
+    /* Font Weight */
+    --fontWeight_1: 100;
+    --fontWeight_2: 200;
+    --fontWeight_3: 300;
+    --fontWeight_4: 400;
+    --fontWeight_5: 500;
+    --fontWeight_6: 600;
+    --fontWeight_7: 700;
+    --fontWeight_8: 800;
+    --fontWeight_9: 900;
+
+
+
+
+    /* Line Height */
+    --lineHeight_1: 0.8;
+    --lineHeight_2: 1.36;
+    --lineHeight_3: 2;
+    --lineHeight_4: 1.39;
+    --lineHeight_5: 1;
+    --lineHeight_6: 1.2;
+    --lineHeight_7: 1.77;
+    --lineHeight_8: ;
+    --lineHeight_9: ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

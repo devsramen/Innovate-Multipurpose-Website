@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p, span{
+    line-height: var(--lineHeight_1);
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+/* .container{
+    width: 1170px;
+    margin: 0 auto;
+} */
+/* ===================== Common CSS Start ======================== */
+.commonBtn{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize_1);
+    font-weight: var(--fontWeight_6);
+    color: var(--color_1);
+    background-color: var(--color_4);
+    text-transform: capitalize;
+    padding: 14px 28px;
+    border-radius: 18px;
+    transition: all linear 0.3s;
+}
+.commonBtn:hover{
+    background-color: var(--color_1);
+    color: var(--color_2);
+}
+.commonPara{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize_1);
+    font-weight: var(--fontWeight_4);
+    line-height: var(--lineHeight_3);
+    color: var(--color_3);
+}
+.proPara{
+    position: relative;
+}
+.proPara::after{
+    content: "";
+    width: 5px;
+    height: 101%;
+    background-color: var(--color_5);
+    position: absolute;
+    left: -2%;
+    top: 0;
+}
+.commonTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--fontSize_2);
+    font-weight: var(--fontWeight_7);
+    line-height: var(--lineHeight_2);
+    color: var(--color_3);
+    position: relative;
+}
+.headding2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--fontSize_3);
+    font-weight: var(--fontWeight_7);
+    line-height: var(--lineHeight_4);
+    color: var(--color_3);
+    text-transform: capitalize;
+}
+/* ===================== Common CSS Ended ======================== */
+
+/* =========== NAV =================== */
+#navSection{
+    width: 100%;
+    background-color: var(--color_2);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.logoWrapper{
+    width: 103px;
+    height: 60px;
+    position: relative;
+}
+.logoTitle{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.logoSubTitle{
+    position: absolute;
+    right: 0;
+    top: 70%;
+    z-index: 2;
+}
+.nav-link {
+    font-size: var(--fontSize_1);
+    font-weight: var(--fontWeight_6);
+    color: var(--color_3);
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.nav-link:hover {
+    /* background-color: red; */
+    color: var(--color_1);
+    transform: scale(1.1);
+}
+/* ====================== Profession ================================ */
+#profession{
+    padding: 320px 0 120px;
+}
+.proHeading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--fontSize_2);
+    font-weight: var(--fontWeight_7);
+    line-height: var(--lineHeight_2);
+    color: var(--color_3);
+    text-transform: capitalize;
+}
+#profession .proPara{
+    padding-right: 190px;
+}
+.signup{
+    background-color: var(--color_6);
+    border-radius: 24px;
+    padding: 15px;
+}
+.signup p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.proImg_1 {
+    right: -155px;
+    top: -226px;
+}
+.proImg_3 {
+    right: -179px;
+    top: 210px;
+}
+/* ============================== Logos ================================ */
+#logos{
+    padding: 0 0 138px 0;
+}
+/* ============================== Solution ================================ */
+#solution{
+    padding: 128px 0;
+}
+/* #solution .proPara{
+    padding-right: 0;
+} */
+.solCard{
+    width: 100%;
+    border: 2px solid var(--color_7);
+    border-radius: 30px;
+    padding: 24px 34px 48px 24px;
+    transition: all linear 0.3s;
+}
+.solCard:hover{
+    background-color: var(--color_1);
+}
+.solCardHeImageBox{
+    width: 50px;
+    height: 50px;
+    border-radius: 14px;
+}
+.solCardHead{
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--fontSize_4);
+    font-weight: var(--fontWeight_7);
+    line-height: var(--lineHeight_4);
+    color: var(--color_3);
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.solCard:hover .solCardHead{
+    color: var(--color_8);
+}
+#solution .commonPara{
+    text-align: justify;
+}
+.solCarPara{
+    transition: all linear 0.3s;
+}
+.solCard:hover .solCarPara{
+    color: var(--color_8);
+}
+.solCarRed{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize_5);
+    font-weight: var(--fontWeight_6);
+    line-height: var(--lineHeight_5);
+    color: var(--color_3);
+    transition: all linear 0.3s;
+}
+.solCard:hover .solCarRed{
+    color: var(--color_8);
+}
+#solution .row {
+    --bs-gutter-y: 1.5REM;
+}
+/* ===================== Goals ======================== */
+#goals {
+    margin-bottom: 150px;
+}
+.goalCardLeft{
+    background-color: var(--color_8);
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75); */
+    padding: 24px;
+}
+.goalCirBG{
+    width: 36%;
+    height: 733px;
+    background-color: var(--color_10);
+    border-radius: 0 150px 150px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.goalCardImg_1 {
+    position: absolute;
+    left: 47%;
+    top: 80px;
+}
+.goalCardImg_2{
+    position: absolute;
+    left: 53px;
+    top: 215px;
+}
+.goalCardImg_3{
+    position: absolute;
+    left: 50%;
+    top: 390px;
+}
+#goals .headding2{
+    margin-top: 249px;
+    margin-left: 100px;
+}
+#goals .commonPara{
+    margin-top: 24px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+#goals .commonBtn{
+    margin-left: 100px;
+}
+
+/* ===================== Artificial Intelligence ======================== */
+#ai{
+    padding: 50px 0;
+}
+#ai .row {
+    background-color: var(--color_11);
+    border-radius: 30px;
+}
+#ai .commonBtn{
+    background-color: transparent;
+}
+#ai .commonBtn:hover{
+    background-color: var(--color_1);
+    color: var(--color_2);
+}
+
+/* ===================== Distribution List ======================== */
+#distribution{
+    padding: 96px 0 20px 0;
+}
+#distribution .commonPara{
+    margin: 24px 0 48px 0;
+}
+/* ===================== Pricing ======================== */
+#pricing{
+    padding: 120px 0;
+}
+#pricing .headding2{
+    text-align: center;
+    padding: 0 300px;
+}
+.pricingCon{
+    margin: 30px 0 80px 0;
+}
+.pSwitch{
+    width: 70px;
+    height: 40px;
+    background-color: var(--color_1);
+    border-radius: 50px;
+}
+.pSwCirc{
+    width: 26px;
+    height: 26px;
+    background-color: var(--color_2);
+    border-radius: 50%;
+}
+.pricingCardWrapper{
+    width: 100%;
+    border-radius: 30px;
+    transition: all linear 0.3s;
+    box-shadow: 0px 0px 19px 1px var(--color_14);
+    -webkit-box-shadow: 0px 0px 19px 1px var(--color_14);
+    -moz-box-shadow: 0px 0px 19px 1px var(--color_14);
+}
+.pCardhead{
+    width: 100%;
+}
+.PriCardTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--fontSize_7);
+    font-weight: var(--fontWeight_7);
+    line-height: var(--lineHeight_4);
+    color: var(--color_3);
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.priCardItem{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize_5);
+    font-weight: var(--fontWeight_4);
+    line-height: var(--lineHeight_6);
+    color: var(--color_12);
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.priCardColor{
+    color: var(--color_1);
+    font-weight: var(--fontWeight_7);
+}
+.priCardItem i{
+    margin-right: 14px;
+}
+.pricingCardWrapper:hover{
+    background-color: var(--color_13);
+    cursor: pointer;
+}
+.PricBtnColor{
+    transition: all linear 0.3s;
+}
+.pricingCardWrapper:hover .PriCardTitle{
+    color: var(--color_2);
+}
+.pricingCardWrapper:hover .PricBtnColor{
+    color: var(--color_2);
+}
+.pricingCardWrapper:hover .priCardItem{
+    color: var(--color_2);
+}
+/* ===================== Video Section ======================== */
+#video{}
+.videoHead{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize_8);
+    font-weight: var(--fontWeight_6);
+    line-height: var(--lineHeight_6);
+    color: var(--color_12);
+    text-transform: capitalize;
+}
+.videoContHead{
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--fontSize_2);
+    font-weight: var(--fontWeight_6);
+    line-height: var(--lineHeight_4);
+    color: var(--color_12);
+    text-transform: capitalize;
+}
+.videoSubHead{
+    width: 75%;
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize_1);
+    font-weight: var(--fontWeight_4);
+    line-height: var(--lineHeight_4);
+    color: var(--color_3);
+    text-transform: capitalize;
+}
+/* ===================== Plan ======================== */
+#plan{
+    padding: 120px 0;
+}
+#plan .headding2{
+    /* padding-right: 200px; */
+}
+.planRow2{
+    margin-top: 90px;
+}
+.planDesign1{
+    width: 100%;
+    height: 520px;
+    background-color: var(--color_15);
+    border-radius: 40px;
+}
+.planTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--fontSize_7);
+    font-weight: var(--fontWeight_6);
+    line-height: var(--lineHeight_4);
+    color: var(--color_3);
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.planIcons{
+    margin: 14px 0 56px;
+}
+.planIcon{
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--color_1);
+    border-radius: 50%;
+    transition: all linear 0.3s;
+}
+.planIcon i, .planBtn i{
+    color: var(--color_1);
+    transition: all linear 0.3s;
+}
+.planIcon:hover{
+    background-color: var(--color_1);
+
+}
+.planIcon:hover i{
+    color: var(--color_2);
+}
+.planBtn{
+    width: 64px;
+    height: 64px;
+    background-color: var(--color_15);
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.planBtn:hover{
+    background-color: var(--color_1);
+}
+.planBtn:hover i{
+    color: var(--color_2);
+}
+.planImageBox{
+    width: 100%;
+}
+.planImageRight {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* ===================== CTA ======================== */
+#cta{
+    padding-bottom: 130px;
+}
+.catSearch{
+    width: 50%;
+    background-color: var(--color_15);
+    padding: 14px 10px;
+}
+#cta .commonBtn{
+    border-radius: 10px;
+}
+/* ===================== Footer ======================== */
+#footer{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 50px;
+}
+.footerPara{
+    margin-top: 44px;
+}
+.footerDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 150px;
+}
+.FooterDetHe{
+    padding-bottom: 30px;
+}
+.footerDetHead{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize_8);
+    font-weight: var(--fontWeight_6);
+    line-height: var(--lineHeight_2);
+    color: var(--color_3);
+    text-transform: capitalize;
+}
+.footerDetCont{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize_5);
+    font-weight: var(--fontWeight_6);
+    line-height: var(--lineHeight_6);
+    color: var(--color_3);
+    text-transform: capitalize;
+}
+
+.footerBottom{
+    background-color: var(--color_15);
+}
+.footerBottomCon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

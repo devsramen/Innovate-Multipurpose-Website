@@ -1,0 +1,162 @@
+@media (min-width: 0) and (max-width: 576px) {
+    .logoWrapper {
+        transform: scale(0.6);
+    }
+
+    /* ======================== Profession ================== */
+    #profession {
+        padding: 3px 0;
+    }
+    .proHeading {
+        font-size: var(--reFontSize_1);
+        text-align: center;
+    }
+    .commonPara {
+       font-size: var(--reFontSize_2);
+    }
+    #profession .proPara {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    #profession .my-5 {
+        margin-top: 18px !important;
+        margin-bottom: 20px !important;
+    }
+    .commonBtn {
+        padding: 8px 15px;
+    }
+    .proImgBox{
+        margin-top: 30px;
+    }
+    .proImg_2 {
+        width: 45%;
+    }
+    .proImg_1 {
+        width: 60%;
+        right: 43px;
+        top: -52px;
+    }
+    .proImg_3 {
+        width: 45%;
+        right: 10px;
+        top: 101px;
+    }
+    #logos{
+        margin-top: 100px;
+        padding: 0 0 20px 0;
+    }
+    .signup.d-flex.justify-content-between.align-items-center {
+        margin-bottom: 20px;
+    }
+    /* ========================== Solution ==================== */
+    #solution {
+        padding: 0;
+    }
+    #solution .headding2 {
+        font-size: var(--reFontSize_3);
+        text-align: center;
+    }
+    .col-lg-6.col-12.offset-lg-1 {
+        margin-top: 3px;
+    }
+    .solCard {
+        border-radius: 18px;
+        padding: 15px;
+    }
+    .solCardHead {
+        font-size: 20px;
+    }
+    #solution .solPara {
+        text-align: justify;
+        padding-left: 10px;
+        line-height: var(--reLineHeight_1);
+    }
+    /* ===================== Goals ======================== */
+    #goals {
+        margin-bottom: 10px;
+    }
+    .goalsImagesAll.position-relative {
+        transform: scale(60%);
+    }
+    .goalCardImg_2 {
+        left: -95px;
+        top: 149px;
+    }
+    .goalCardImg_1 {
+        left: 33%;
+        top: 16px;
+    }
+    .goalCardImg_3 {
+        left: 45%;
+        top: 326px;
+    }
+    #goals .headding2 {
+        font-size: var(--reFontSize_4);
+        margin-top: 365px;
+        margin-left: 0;
+    }
+    #goals .commonPara {
+        margin-left: 0;
+        text-align: justify;
+        margin-bottom: 31px;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    .goalCirBG {
+        width: 75%;
+        height: 342px;
+        border-radius: 0 50px 50px 0;
+        margin-top: 15px;
+    }
+    #ai .commonBtn {
+        font-size: var(--reFontSize_5);
+    }
+
+    /* ===================== Artificial Intelligence ======================== */
+    #ai {
+        padding: 10px 0;
+    }
+    /* ===================== Distribution List ======================== */
+    #distribution {
+        padding: 0;
+        margin-top: 20px;
+    }
+    #distribution .headding2{
+        font-size: var(--reFontSize_4);
+        padding: 20px 20px 0;
+    }
+    #distribution .commonPara {
+        margin: 7px 0 20px 0;
+        text-align: justify;
+    }
+    /* ===================== Pricing ======================== */
+    #pricing {
+        padding: 0;
+        padding-top: 30px;
+    }
+    #pricing .headding2 {
+        padding: 0 15px;
+    }
+    .pricingCon {
+        margin: 20px 0;
+    }
+    .PriCardTitle {
+        font-size: var(--reFontSize_4);
+    }
+    .pricingCardWrapper {
+        border-radius: 13px;
+    }
+    #pricing .headding2 {
+        font-size: var(--reFontSize_4);
+        text-align: center;
+    }
+    .priCardItem {
+        font-size: 14px;
+    }
+    #pricing .row {
+        --bs-gutter-y: 1.5rem;
+    }
+
+
+}
